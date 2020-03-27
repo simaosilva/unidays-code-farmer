@@ -8,7 +8,7 @@ If you would like to stay up to date regarding any updates, feel free to follow 
 1. Make sure you have Python (preferably 3.8.2) installed
 2. download & unzip this the zip you donwloaded, open your CMD/Terminal and `cd` to this folder.
 3. run `pip install -r requirements.txt`
-4. Add your info into `setting.json`
+4. Add your info into `setting.json`, make sure that on the "region" field you replace it for your country's region in ISO code. You can check yours here [ISO_Codes](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)
 
 ## To run
 
@@ -33,7 +33,7 @@ open your terminal, change your directory to this folder/repo and run:
 {
   "email": "replacethisfieldwithyouremail",
   "password": "replacethisfieldwithyourpassword",
-  "region": "replacethisfieldwithyourregion (IN ISO FORMAT (ES,IT,EN,... check yours here https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)",
+  "region": "replacethisfieldwithyourregion",
   "2captcha_api_key": "replacethisfieldwithyour2captchaapikeyhere"
 }
 ```
