@@ -8,7 +8,7 @@ If you would like to stay up to date regarding any updates, feel free to follow 
 1. Make sure you have Python (preferably 3.8.2) installed
 2. download & unzip this the zip you donwloaded, open your CMD/Terminal and `cd` to this folder.
 3. run `pip install -r requirements.txt`
-4. Add your info into `setting.json`
+4. Add your info into `account.json`
 
 ## To run
 
