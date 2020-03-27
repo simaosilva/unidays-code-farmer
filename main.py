@@ -59,7 +59,7 @@ def grab_captcha(api_key, site_key):
 class UnidaysCodeFarmer:
     def __init__(self):
         self.site = input(f"[{str(datetime.now())}] Please enter here what site you want to farm codes for: ").lower()
-        self.count_code = int(input(f"[{str(datetime.now())}] Please enter here the amount of codes you want to farm: "))
+        self.number_of_codes_generated = 0
         self.s = requests.session()
         self.site_key = '6Ld9uqgUAAAAAKiIVOqkxm7l-Vmpe9F-9ORCOUQg'
         self.s.headers = {
@@ -92,18 +92,18 @@ class UnidaysCodeFarmer:
 
     def grab_code(self):
         open(f"{self.site}_discount_codes.txt", "w")
-        while self.count_code > 0:
+        while True:
             payload = {
                 "forceNew": "true"
             }
             code_response = self.s.post(f"https://perks.myunidays.com/access/{self.site}/online", data=payload, verify=False)
             if code_response.status_code == 200:
+                self.number_of_codes_generated += 1
                 discount_code = code_response.json()["code"]
-                print(f"[{str(datetime.now())}] Got code {discount_code}")
+                print(f"[{str(datetime.now())}] Got code {discount_code}, you have generated {str(self.number_of_codes_generated)} already!")
                 with open(f"{self.site}_discount_codes.txt", "a") as f:
                     f.write(discount_code)
                     f.close()
-                self.count_code -= 1
             else:
                 print(f"[{str(datetime.now())}] Error grabbing code")
             print(f"[{str(datetime.now())}] Waiting 60 minutes until trying to grab new code")
@@ -115,3 +115,4 @@ if __name__ == '__main__':
     code_farmer = UnidaysCodeFarmer()
     code_farmer.login()
     code_farmer.grab_code()
+    print(f"[{str(datetime.now())}] All codes successfully grabbed")
