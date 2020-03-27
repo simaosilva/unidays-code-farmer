@@ -21,7 +21,7 @@ open your terminal, change your directory to this folder/repo and run:
 **IMPORTANT**
 If you want to generate codes for more than one site at a time, run the `main.py` for as many site as you want to farm.
 
-Once you're done generating the codes you want, just close the t
+Once you're done generating the codes you want, just close the program.
 
 ## Common errors
 
