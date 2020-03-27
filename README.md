@@ -18,6 +18,9 @@ open your terminal, change your directory to this folder/repo and run:
 
 - on Windows: `py main.py`
 
+**IMPORTANT**
+If you want to run this program to farm codes for different sites, just open a new terminal and run the same commands.
+
 ## Common errors
 
 1. `No module named XXX` = you don't have some of the dependencies installed. Make sure you did everything in [Before running](https://github.com/Alexvec00/unidays-code-farmer#before-running). If that doesn't help, try running:
