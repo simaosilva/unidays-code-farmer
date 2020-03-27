@@ -8,7 +8,7 @@ If you would like to stay up to date regarding any updates, feel free to follow 
 1. Make sure you have Python (preferably 3.8.2) installed
 2. download & unzip this the zip you donwloaded, open your CMD/Terminal and `cd` to this folder.
 3. run `pip install -r requirements.txt`
-4. Add your info into `account.json`
+4. Add your info into `setting.json`
 
 ## To run
 
@@ -27,7 +27,7 @@ open your terminal, change your directory to this folder/repo and run:
 2. `'pip' is not recognized as an internal or external command, operable program or batch file.` or anything related to this -> you probably don't have Python in your PATH variable (`setx PATH "%PATH%;C:\Python38\Scripts"` - ONLY IF YOU'RE ON WINDOWS). If that doesn't help, try running:
      - on Windows `py -m pip install -r requirements.txt`
      - on Mac `python3 -m pip install -r requirements.txt`
-3. Anything related to a `keyerror XXX` = There is something wrong with your `account.json` file. Make sure it's filled in like this:
+3. Anything related to a `keyerror XXX` = There is something wrong with your `setting.json` file. Make sure it's filled in like this:
 
 ```json
 {
