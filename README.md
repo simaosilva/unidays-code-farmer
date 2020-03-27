@@ -31,7 +31,10 @@ open your terminal, change your directory to this folder/repo and run:
 
 ```json
 {
-    "email":"password"
+  "email": "replacethisfieldwithyouremail",
+  "password": "replacethisfieldwithyourpassword",
+  "region": "replacethisfieldwithyourregion (IN ISO FORMAT (ES,IT,EN,... check yours here https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)",
+  "2captcha_api_key": "replacethisfieldwithyour2captchaapikeyhere"
 }
 ```
 
