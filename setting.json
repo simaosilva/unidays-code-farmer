@@ -1,6 +1,6 @@
 {
-  "email": "replacethisfieldwithyouremail",
-  "password": "replacethisfieldwithyourpassword",
-  "region": "replacethisfieldwithyourregion (IN ISO FORMAT (ES,IT,EN,... check yours here https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes)",
-  "2captcha_api_key": "replacethisfieldwithyour2captchaapikeyhere"
+  "email": "replace this field with your email",
+  "password": "replace this field with your password",
+  "region": "replace this field with your region",
+  "2captcha_api_key": "replace this field with your 2captcha api key"
 }
