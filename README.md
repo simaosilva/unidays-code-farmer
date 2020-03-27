@@ -16,7 +16,7 @@ open your terminal, change your directory to this folder/repo and run:
 
 - on Mac: `python3 main.py`
 
-- on Widnows: `py main.py`
+- on Windows: `py main.py`
 
 ## Common errors
 
