@@ -19,7 +19,7 @@ open your terminal, change your directory to this folder/repo and run:
 - on Windows: `py main.py`
 
 **IMPORTANT**
-If you want to run this program to farm codes for different sites, just open a new terminal and run the same commands.
+If you want to generate codes for more than one site at a time, open a new terminal for each site you want to farm and run the program.
 
 ## Common errors
 
