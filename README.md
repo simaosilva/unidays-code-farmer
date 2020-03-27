@@ -19,7 +19,9 @@ open your terminal, change your directory to this folder/repo and run:
 - on Windows: `py main.py`
 
 **IMPORTANT**
-If you want to generate codes for more than one site at a time, open a new terminal for each site you want to farm and run the program.
+If you want to generate codes for more than one site at a time, run the `main.py` for as many site as you want to farm.
+
+Once you're done generating the codes you want, just close the t
 
 ## Common errors
 
@@ -40,6 +42,7 @@ If you want to generate codes for more than one site at a time, open a new termi
   "2captcha_api_key": "replace this field with your 2captcha api key"
 }
 ```
+4. If you get Error grabbing code, it might be because you are not entering correctly the site name for unidays, to do so login on your account, click on the site and copy what's in between of the partners/{copy what's here}/view.
 
 ## Where do I find generated code?
 
