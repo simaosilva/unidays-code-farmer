@@ -31,16 +31,16 @@ open your terminal, change your directory to this folder/repo and run:
 
 ```json
 {
-  "email": "replacethisfieldwithyouremail",
-  "password": "replacethisfieldwithyourpassword",
-  "region": "replacethisfieldwithyourregion",
-  "2captcha_api_key": "replacethisfieldwithyour2captchaapikeyhere"
+  "email": "replace this field with your email",
+  "password": "replace this field with your password",
+  "region": "replace this field with your region",
+  "2captcha_api_key": "replace this field with your 2captcha api key"
 }
 ```
 
 ## Where do I find generated code?
 
-- If everything goes smoothly, accounts should be in the **codes folder** in the respective .txt file.
+- If everything goes smoothly, generated codes should be in the in the respective .txt file. Example : **if you selected nike as the site you want to grab codes for a nike_discount_codes.txt will be generated**
 
 
 ## FAQ
